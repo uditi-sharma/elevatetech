@@ -334,7 +334,6 @@ a:visited {
 .linkedin-icon:hover {
   color: #0e76a8;
   transition: color 0.5s;
-
 }
 
 .instagram-icon:hover {
@@ -349,3 +348,87 @@ a:visited {
 
 
 /* contact us */
+.contact-container {
+  background:  #a0c4ff;
+  height: 350px;
+}
+.section-title {
+  height: 25px;
+}
+
+.instagram-container {
+  background-color: #ffcbffee;
+  border-radius: 50%;
+  height: 54px;
+  width: 53px;
+  left: 33px;
+  top: 20px;
+  padding: 20px;
+  margin: auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 50px;
+
+}
+.youtube-container {
+  background-color: #ff9191;
+  border-radius: 50%;
+  height: 54px;
+  width: 53px;
+  left: 110px;
+  top: 28px;
+  padding: 20px;
+  margin: auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 45px;
+}
+.website-container {
+  background-color: #7bee98;
+  border-radius: 50%;
+  height: 54px;
+  width: 53px;
+  left: 192px;
+  top: 28px;
+  padding: 20px;
+  margin: auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 45px;
+}
+.email-container {
+  background-color: #FFC8DD;
+  border-radius: 50%;
+  height: 54px;
+  width: 53px;
+  left: 279px;
+  top: 28px;
+  padding: 20px;
+  margin: auto;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.cell {
+  display: table-cell;
+  font-size: 20px;
+  padding: 15px;
+}
+.copyright-container {
+  margin: auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 15px;
+}
+.sponsor-container {
+  margin: auto;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  font-size: 15px;
+}
