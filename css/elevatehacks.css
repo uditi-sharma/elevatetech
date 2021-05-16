@@ -118,7 +118,7 @@ a:visited {
   cursor: pointer;
   border-radius: 50px;
   moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out; 
+  -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   color: white;
@@ -249,6 +249,10 @@ a:visited {
     margin: auto;
     margin-top: 30px;
   }
+
+  .about-text {
+    text-align: center;
+  }
 }
 
 /* phone */
@@ -266,6 +270,10 @@ a:visited {
     width: 95%;
     margin: auto;
     margin-top: 30px;
+  }
+
+  .about-text {
+    text-align: center;
   }
 }
 

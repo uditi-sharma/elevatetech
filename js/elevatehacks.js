@@ -1,5 +1,5 @@
 // description text 
-consoleText(["Dubai's First All Female High School Hackathon", "Join Us On August 7-9!"], 'text', ['rebeccapurple']);
+consoleText(["Dubai's First All Female High School Hackathon", "Open to students internationally!", "Join Us On August 7-9!"], 'text', ['rebeccapurple']);
 
 function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
