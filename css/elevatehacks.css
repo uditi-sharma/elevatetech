@@ -516,6 +516,29 @@ ul {
 }
 
 /* speakers */
+.speakers-section {
+  margin: 40px;
+}
+.speakers-title {
+  border-radius: 20px;
+  background-color: #ffadad;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.speakers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.speaker {
+  border-radius: 20px;
+  background-color: #ac2c2c;
+  height: 100px;
+  margin: 10px 20px;
+}
 
 /* team */
 
