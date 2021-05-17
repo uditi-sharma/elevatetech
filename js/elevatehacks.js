@@ -1,3 +1,10 @@
+// burger dropdown
+function changeBurger(x) {
+    x.classList.toggle("change");
+    var navLinksMobile = document.getElementById("navLinksMobile");
+    navLinksMobile.classList.toggle("grid");
+}
+
 // description text 
 consoleText(["Dubai's First All Female High School Hackathon", "Open to students internationally!", "Join Us On August 7-9!"], 'text', ['rebeccapurple']);
 
@@ -49,7 +56,6 @@ function consoleText(words, id, colors) {
         }
     }, 400)
 }
-
 
 // countdown
 const second = 1000,

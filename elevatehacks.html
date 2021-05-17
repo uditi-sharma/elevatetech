@@ -13,15 +13,40 @@
 
 <body>
     <nav class="nav">
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#schedule">Event Schedule</a>
-        <a class="nav-link" href="#faqs">FAQs</a>
-        <a class="nav-link" href="#prizes">Prizes</a>
-        <img src="images/logo.png" width="100">
-        <a class="nav-link" href="#sponsors">Sponsors</a>
-        <a class="nav-link" href="#speakers">Speakers</a>
-        <a class="nav-link" href="#team">Team</a>
-        <a class="nav-link" href="#footer">Contact Us</a>
+        <div class="nav-desktop">
+            <img class="nav-logo" src="images/logo.png">
+            <ul class="nav-links" id="navLinks">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#schedule">Event Schedule</a></li>
+                <li><a class="nav-link" href="#faqs">FAQs</a></li>
+                <li><a class="nav-link" href="#prizes">Prizes</a></li>
+                <li><a class="nav-link" href="#sponsors">Sponsors</a></li>
+                <li><a class="nav-link" href="#speakers">Speakers</a></li>
+                <li><a class="nav-link" href="#team">Team</a></li>
+            </ul>
+        </div>
+        <div class="nav-mobile">
+            <div class="nav-mobile-top">
+                <img class="nav-logo" src="images/logo.png">
+                <div class="burger-container">
+                    <div class="burger" onclick="changeBurger(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-links-mobile" id="navLinksMobile">
+                <a class="nav-link-mobile" href="#about">About</a>
+                <a class="nav-link-mobile" href="#schedule">Event Schedule</a>
+                <a class="nav-link-mobile" href="#faqs">FAQs</a>
+                <a class="nav-link-mobile" href="#prizes">Prizes</a>
+                <a class="nav-link-mobile" href="#sponsors">Sponsors</a>
+                <a class="nav-link-mobile" href="#speakers">Speakers</a>
+                <a class="nav-link-mobile" href="#team">Team</a>
+            </div>
+
+        </div>
     </nav>
     <section id="intro">
         <div class="intro-container">
