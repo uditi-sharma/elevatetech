@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 * {
   margin: 0;
   font-family: "Fira Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -18,10 +22,14 @@ ul {
 }
 
 .section-title {
-  font-size: 35px;
+  font-size: 40px;
   padding: 50px 0 30px 0;
   text-align: center;
   margin-bottom: 30px;
+  text-decoration: underline;
+  font-family: 'Signika', sans-serif;
+  text-shadow: 2px 2px #c5f1ff;
+  color: #f37076;
 }
 
 #about,
@@ -68,6 +76,14 @@ ul {
 .nav-link {
   color: black;
   font-size: 18px;
+  text-decoration: underline solid transparent;
+  transition: color 0.5s, text-decoration 0.5 ease;
+}
+
+.nav-link:hover {
+  color: #f37076;
+  text-decoration: underline;
+  transition: color 0.5s, text-decoration 0.5s ease;
 }
 
 /* nav mobile */
@@ -160,6 +176,7 @@ ul {
   text-shadow: 2px 2px white;
   filter: drop-shadow(0 0 0.75rem white);
   color: #f37076;
+  font-family: 'Signika', sans-serif;
 }
 
 .console-underscore {
@@ -206,7 +223,7 @@ ul {
   align-items: center;
   width: 95%;
   margin: auto;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .register-btn,
@@ -304,6 +321,11 @@ ul {
     margin: 20px 0 5px 0;
     font-size: 18px;
   }
+}
+
+.top-intro-section {
+  background-image: linear-gradient(180deg, #c5f1ff, white);
+  height: 100px;
 }
 
 /* about */
@@ -439,15 +461,16 @@ ul {
   font-size: 20px;
   width: 90%;
   margin: -40px auto 80px auto;
+  color: rgb(53, 51, 51);
 }
 
 .email-link {
-  color: blue;
+  color: rgb(108, 108, 248);
   transition: color 0.5s;
 }
 
 .email-link:hover {
-  color: rgb(108, 108, 248);
+  color: #0084ff;
   transition: color 0.5s;
 }
 
