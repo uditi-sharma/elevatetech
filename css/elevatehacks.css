@@ -492,29 +492,31 @@ ul {
 /* prizes */
 .prize-tracks {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: auto;
+  width: 90%;
 }
 
 .prize-track-c1 {
   background-color: #a0c4ff;
   border-radius: 20px;
-  margin: 30px;
-  height: 400px;
+  height: 380px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .prize-track-c2 {
   background-color: #bdb2ff;
   border-radius: 20px;
-  margin: 30px;
-  height: 400px;
+  height: 380px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .prize-track-c3 {
   background-color: #ffc6ff;
   border-radius: 20px;
-  margin: 30px;
-  height: 400px;
+  height: 380px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .prize-track-info {
@@ -535,8 +537,8 @@ ul {
 .prize-img {
   margin: 30px;
   border-radius: 20px;
-  background-color: #c4c4c4;
-  height: 255px;
+  background-color: white;
+  height: 220px;
 }
 
 /* speakers */
