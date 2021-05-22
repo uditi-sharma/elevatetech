@@ -594,7 +594,7 @@ ul {
 
 .faq-answer {
   font-size: 23px;
-  background-color: #fdffb6;
+  background-color: #ffebc6;
   border-radius: 20px 20px 20px 20px;
   height: 200px;
   padding: 20px;
@@ -645,6 +645,11 @@ ul {
   margin-bottom: 40px;
 }
 
+@media(max-width: 900px) {
+  .sponsor-msg {
+    margin-bottom: 50px;
+  }
+}
 /* prizes */
 .prize-tracks {
   display: grid;
@@ -749,12 +754,24 @@ ul {
 }
 
 .member-img-container {
-  background-color: #ac2c2c;
+  /* background-color: #ac2c2c;
   border-radius: 50%;
   height: 150px;
   width: 150px;
   padding: 20px;
+  margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
   margin: auto;
+  border: 5px solid #c5f1ff;
+  background-color: #c5f1ff;
 }
 
 .member-info {
@@ -789,23 +806,34 @@ ul {
 
 .linkedin-icon,
 .instagram-icon,
-.github-icon {
+.github-icon,
+.email-icon {
   color: rgb(54, 53, 53);
-  transition: color 0.5s;
+  transition: color 0.5s, transform 0.5s;
 }
+
 .linkedin-icon:hover {
   color: #0e76a8;
-  transition: color 0.5s;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
 }
 
 .instagram-icon:hover {
-  color: #c13584; /* may be updated later for gradient */
-  transition: color 0.5s;
+  color: #c13584;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
 }
 
 .github-icon:hover {
   color: black;
-  transition: color 0.5s;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
+}
+
+.email-icon:hover {
+  color: rgb(230, 3, 3);
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
 }
 
 /* footer */
@@ -884,7 +912,7 @@ ul {
 
 @media (max-width: 900px) {
   .contact-container {
-    padding: 20px;
+    padding: 30px;
   }
 
   .social-container {
