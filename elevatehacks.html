@@ -110,34 +110,46 @@
     <section id="schedule">
         <h1 class="section-title">Schedule</h1>
         <div class="schedules">
-            <div class="schedule">
-                <p class="schedule-date">August 7th</p>
-                <div class="schedule-events">
-                    <div class="event">
-                        <p class="event-title"></p>
-                        <p class="event-time"></p>
+            <div class="interactive-schedule">
+                <div class="schedule-slide">
+                    <p class="schedule-date">August 7th</p>
+                    <div class="schedule-events">
+                        <div class="event">
+                            <p class="event-title"></p>
+                            <p class="event-time"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="schedule">
-                <p class="schedule-date">August 8th</p>
-                <div class="schedule-events">
-                    <div class="event">
-                        <p class="event-title"></p>
-                        <p class="event-time"></p>
+                <div class="schedule-slide">
+                    <p class="schedule-date">August 8th</p>
+                    <div class="schedule-events">
+                        <div class="event">
+                            <p class="event-title"></p>
+                            <p class="event-time"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="schedule">
-                <p class="schedule-date">August 9th</p>
-                <div class="schedule-events">
-                    <div class="event">
-                        <p class="event-title"></p>
-                        <p class="event-time"></p>
+                <div class="schedule-slide">
+                    <p class="schedule-date">August 9th</p>
+                    <div class="schedule-events">
+                        <div class="event">
+                            <p class="event-title"></p>
+                            <p class="event-time"></p>
+                        </div>
                     </div>
+                </div>
+                <a class="schedule-back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="schedule-next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="schedule-dots">
+                    <span class="schedule-dot" onclick="currentSlide(1)"></span>
+                    <span class="schedule-dot" onclick="currentSlide(2)"></span>
+                    <span class="schedule-dot" onclick="currentSlide(3)"></span>
                 </div>
             </div>
         </div>
+
+        <script src="js/schedule.js"></script>
     </section>
     <section id="faqs">
         <h1 class="section-title">Frequently Asked Questions </h1>
