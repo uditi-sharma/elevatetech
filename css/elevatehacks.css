@@ -37,11 +37,15 @@ ul {
 #faqs,
 #prizes,
 #sponsors,
-#speakers,
 #team {
   margin: auto;
   margin-bottom: 50px;
   width: 95%;
+}
+
+#speakers {
+  margin: auto;
+  width: 90%;
 }
 
 /* nav */
@@ -570,11 +574,12 @@ ul {
 /* faqs */
 .faq-questions {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: auto;
+  margin-bottom: -50px;
 }
 
-.faq-question-card {
+.faq-question-card{
   width: 90%;
   margin: auto;
   margin-bottom: 50px;
@@ -593,6 +598,16 @@ ul {
   border-radius: 20px 20px 20px 20px;
   height: 200px;
   padding: 20px;
+}
+
+@media(max-width: 700px) {
+  .faq-question {
+    font-size: 20px;
+  }
+
+  .faq-answer {
+    font-size: 17px;
+  }
 }
 
 /* sponsors */
@@ -618,6 +633,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: auto;
+  margin-bottom: -40px;
 }
 
 .sponsor-logo {
@@ -719,8 +735,8 @@ ul {
   font-size: 19px;
   color: white;
 }
-/* team */
 
+/* team */
 .team-members {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
