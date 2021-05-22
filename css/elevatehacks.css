@@ -194,6 +194,7 @@ ul {
   border: 5px solid #ff5757;
   margin: 80px;
   border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* .console-underscore {
@@ -391,6 +392,7 @@ ul {
   border-radius: 20px;
   height: 400px;
   margin: 0 40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .about-right {
@@ -462,13 +464,15 @@ ul {
   position: relative;
 }
 
+
 .schedule-slide {
   background-color: #caffbf;
   height: 500px;
   width: 500px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   display: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .schedule-back,
@@ -571,6 +575,7 @@ ul {
   width: 350px;
   margin: auto;
   margin-bottom: 40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* faqs */
@@ -582,29 +587,44 @@ ul {
 }
 
 .faq-question-card {
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-bottom: 50px;
+  /* border-radius: 20px; */
 }
 
-.faq-question {
+details {
   font-size: 25px;
-  background-color: #ffd6a5;
+  background: #ffd6a5;
   padding: 15px 20px;
   border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
+/* .faq-question {
+  font-size: 25px;
+  background: #ffd6a5;
+  padding: 15px 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+} */
 
 .faq-answer {
   font-size: 23px;
   background-color: #ffebc6;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   height: 200px;
   padding: 20px;
+  margin: 15px;
 }
 
 @media (max-width: 700px) {
   .faq-question {
     font-size: 20px;
+  }
+
+  .faq-question-card {
+    margin-bottom: 30px;
   }
 
   .faq-answer {
@@ -718,6 +738,7 @@ ul {
   text-align: center;
   margin-bottom: 10px;
   font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .speakers-container {
@@ -736,6 +757,7 @@ ul {
   display: grid;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .speaker-name {
@@ -774,6 +796,7 @@ ul {
   margin: auto;
   border: 5px solid #c5f1ff;
   background-color: #c5f1ff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .member-info {
@@ -865,6 +888,7 @@ ul {
   color: black;
   transition: color 0.5s;
   cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .social-container:hover {
@@ -895,7 +919,7 @@ ul {
 .footer-line {
   width: 90%;
   margin: auto;
-  border: 1px solid rgb(41, 41, 41);
+  border: 1px solid rgb(163, 163, 163);
   border-radius: 20px;
   margin-bottom: 20px;
 }
