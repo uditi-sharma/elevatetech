@@ -135,13 +135,16 @@ a:visited {
 
 /* event schedule */
 .schedules {
-  max-width: 1000px;
+  /* width: 1000px; */
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
 .interactive-schedule {
-  max-width: 500px;
+  width: 500px;
   position: relative;
 }
 
@@ -167,6 +170,17 @@ a:visited {
   transition: 0.6s ease;
   border-radius: 20px 3px 3px 3px;
   user-select: none;
+  transition: transform 0.5s;
+}
+
+@media(max-width: 600px) {
+  .interactive-schedule {
+    width: 90%;
+  }
+
+  .schedule-slide {
+    width: 100%;
+  }
 }
 
 .schedule-next {
@@ -175,8 +189,9 @@ a:visited {
 }
 
 .schedule-back:hover, .schedule-next:hover {
-  background-color: black;
-  color: white;
+  transform: scale(1.5);
+  transition: transform 0.5s;
+   
 }
 
 .schedule-date {
