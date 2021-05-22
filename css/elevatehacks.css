@@ -135,18 +135,48 @@ a:visited {
 
 /* event schedule */
 .schedules {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  max-width: 1000px;
+  position: relative;
   margin: auto;
 }
 
-.schedule {
+.interactive-schedule {
+  max-width: 500px;
+  position: relative;
+}
+
+.schedule-slide {
   background-color: #caffbf;
   height: 500px;
   width: 500px;
   border-radius: 20px;
-  margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.schedule-back, .schedule-next {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
+  width: auto;
+  padding: 16px;
+  padding-top: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 20px 3px 3px 3px;
+  user-select: none;
+}
+
+.schedule-next {
+  right: 0px;
+  border-radius: 3px 20px 3px 3px;
+}
+
+.schedule-back:hover, .schedule-next:hover {
+  background-color: black;
+  color: white;
 }
 
 .schedule-date {
@@ -156,6 +186,26 @@ a:visited {
   text-align: center;
   padding: 15px 20px;
   font-weight: bold;
+}
+
+.schedule-dots {
+  position: relative;
+  text-align: center;
+}
+
+.schedule-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .schedule-dot:hover {
+  background-color: #717171;
 }
 
 /* faqs */
