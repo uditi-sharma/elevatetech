@@ -800,15 +800,15 @@ ul {
 
 .contact-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 40%;
+  width: 80%;
   padding: 30px;
   margin: auto;
 }
 
 .social-container {
-  border-radius: 50%;
+  border-radius: 20px;
   height: 40px;
   width: 40px;
   padding: 20px;
@@ -816,22 +816,42 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.social-container:hover {
+  color: white;
+  transition: color 0.5s;
 }
 
 .instagram {
-  background-color: #ffcbffee;
-}
-
-.youtube {
-  background-color: #ff9191;
+  background-color: #e285e2;
 }
 
 .website {
-  background-color: #7bee98;
+  background-color: #6feb56;
+}
+
+.youtube {
+  background-color: #FF5757;
+}
+
+.linkedin {
+  background-color: #22AEE1;
 }
 
 .email {
-  background-color: #ffc8dd;
+  background-color: #FFADAD;
+}
+
+.footer-line {
+  width: 90%;
+  margin: auto;
+  border: 1px solid rgb(41, 41, 41);
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .copyright-sponsor-container {
@@ -846,14 +866,16 @@ ul {
   padding-top: 3px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
   .contact-container {
-    width: 60%;
+    padding: 20px;
   }
-}
 
-@media (max-width: 700px) {
-  .contact-container {
-    width: 85%;
+  .social-container {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 10px;
   }
-}
+} 
