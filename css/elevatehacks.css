@@ -287,7 +287,7 @@ ul {
 
   .involvement-btns-container {
     display: grid;
-    padding: 10px;
+    padding: 15px 0;
   }
 
   .involvement-btns {
@@ -471,7 +471,8 @@ ul {
   display: none;
 }
 
-.schedule-back, .schedule-next {
+.schedule-back,
+.schedule-next {
   cursor: pointer;
   position: absolute;
   top: 0%;
@@ -487,7 +488,7 @@ ul {
   transition: transform 0.5s;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .interactive-schedule {
     width: 90%;
   }
@@ -502,10 +503,10 @@ ul {
   border-radius: 3px 20px 3px 3px;
 }
 
-.schedule-back:hover, .schedule-next:hover {
+.schedule-back:hover,
+.schedule-next:hover {
   transform: scale(1.5);
   transition: transform 0.5s;
-   
 }
 
 .schedule-date {
@@ -533,7 +534,8 @@ ul {
   transition: background-color 0.6s ease;
 }
 
-.active, .schedule-dot:hover {
+.active,
+.schedule-dot:hover {
   background-color: #717171;
 }
 
@@ -579,7 +581,7 @@ ul {
   margin-bottom: -50px;
 }
 
-.faq-question-card{
+.faq-question-card {
   width: 90%;
   margin: auto;
   margin-bottom: 50px;
@@ -600,7 +602,7 @@ ul {
   padding: 20px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .faq-question {
     font-size: 20px;
   }
@@ -645,7 +647,7 @@ ul {
   margin-bottom: 40px;
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .sponsor-msg {
     margin-bottom: 50px;
   }
@@ -879,15 +881,15 @@ ul {
 }
 
 .youtube {
-  background-color: #FF5757;
+  background-color: #ff5757;
 }
 
 .linkedin {
-  background-color: #22AEE1;
+  background-color: #22aee1;
 }
 
 .email {
-  background-color: #FFADAD;
+  background-color: #ffadad;
 }
 
 .footer-line {
@@ -922,4 +924,4 @@ ul {
     font-size: 10px;
     border-radius: 10px;
   }
-} 
+}
