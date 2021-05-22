@@ -601,13 +601,14 @@ details {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* .faq-question {
-  font-size: 25px;
+.faq-question {
+  /* font-size: 25px;
   background: #ffd6a5;
   padding: 15px 20px;
   border-radius: 20px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-} */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  cursor: pointer;
+}
 
 .faq-answer {
   font-size: 23px;
