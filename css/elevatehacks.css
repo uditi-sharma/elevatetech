@@ -342,7 +342,7 @@ ul {
   overflow: hidden;
   position: relative;
   background-color: #000;
-
+  margin: auto;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .slide > div {
@@ -357,15 +357,19 @@ ul {
 .slide > div:nth-child(2) {
   animation-delay: 5s;
 }
+
 .slide > div:nth-child(3) {
   animation-delay: 7s;
 }
+
 .slide > div:nth-child(4) {
   animation-delay: 9s;
 }
+
 .slide > div:nth-child(5) {
   animation-delay: 11s;
 }
+
 @keyframes slide {
   10% {
     opacity: 1;
@@ -376,11 +380,10 @@ ul {
   30% {
     opacity: 1;
   }
-  40% {
+  /* 40% {
     transform: scale(1.2);
-  }
+  } */
 }
-
 
 .text {
   color: #f2f2f2;
