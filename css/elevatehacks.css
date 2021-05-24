@@ -194,7 +194,8 @@ ul {
   border: 5px solid #ff5757;
   margin: 80px;
   border-radius: 20px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px #ff6f6f, 0 3px 6px #f79c9c;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
 }
 
 /* .console-underscore {
@@ -473,6 +474,7 @@ ul {
   margin-bottom: 25px;
   display: none;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #8b8b8b, 0 3px 6px #c3ffb7; */
 }
 
 .schedule-back,
@@ -599,6 +601,7 @@ details {
   padding: 15px 20px;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #ffd6a5, 0 3px 6px #ffd6a5; */
 }
 
 .faq-question {
@@ -687,6 +690,7 @@ details {
   border-radius: 20px;
   height: 380px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #a0c4ff, 0 3px 6px #a0c4ff; */
 }
 
 .prize-track-c2 {
@@ -694,6 +698,7 @@ details {
   border-radius: 20px;
   height: 380px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #bdb2ff, 0 3px 6px #bdb2ff; */
 }
 
 .prize-track-c3 {
@@ -701,6 +706,7 @@ details {
   border-radius: 20px;
   height: 380px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #ffc6ff, 0 3px 6px #ffc6ff; */
 }
 
 .prize-track-info {
@@ -740,6 +746,7 @@ details {
   margin-bottom: 10px;
   font-weight: bold;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px #ffadad, 0 3px 6px #ffadad; */
 }
 
 .speakers-container {
