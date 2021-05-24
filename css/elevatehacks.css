@@ -358,9 +358,26 @@ ul {
   transition: all 0.4s ease-in-out;
 }
 
-.top-intro-section {
-  background-image: linear-gradient(180deg, #c5f1ff, white);
+.wave {
+  margin-bottom: 80px;
+}
+.custom-shape-divider-top {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+  position: relative;
+  display: block;
+  width: 40cm;
   height: 100px;
+}
+
+.custom-shape-divider-top .shape-fill {
+  fill: #C5F1FF;
 }
 
 @media (max-width: 800px) {
