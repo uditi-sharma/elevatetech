@@ -372,7 +372,7 @@ ul {
 .custom-shape-divider-top svg {
   position: relative;
   display: block;
-  width: 40cm;
+  width: 45cm;
   height: 100px;
 }
 
@@ -608,7 +608,7 @@ ul {
 .faq-question-card {
   width: 80%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   /* border-radius: 20px; */
 }
 
@@ -631,10 +631,9 @@ details {
 }
 
 .faq-answer {
-  font-size: 23px;
+  font-size: 22px;
   background-color: #ffebc6;
   border-radius: 20px;
-  height: 200px;
   padding: 20px;
   margin: 15px;
 }
