@@ -603,7 +603,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: auto;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
 }
 
 .faq-question-card {
