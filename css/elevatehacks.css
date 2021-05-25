@@ -36,16 +36,16 @@ ul {
 #schedule,
 #faqs,
 #prizes,
+#speakers,
 #sponsors,
 #team {
   margin: auto;
-  margin-bottom: 50px;
+  padding-top: 50px;
   width: 95%;
 }
 
-#speakers {
-  margin: auto;
-  width: 90%;
+#team {
+  margin-bottom: 50px;
 }
 
 /* nav */
@@ -422,7 +422,7 @@ ul {
 }
 
 .about-text {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* tablet */
@@ -437,13 +437,14 @@ ul {
   }
 
   .about-right {
-    width: 90%;
+    width: 85%;
     margin: auto;
     margin-top: 30px;
   }
 
   .about-text {
     text-align: center;
+    font-size: 19px;
   }
 }
 
@@ -466,6 +467,7 @@ ul {
 
   .about-text {
     text-align: center;
+    font-size: 18px;
   }
 }
 
@@ -749,11 +751,16 @@ details {
 }
 
 /* speakers */
+#speakers {
+  margin-bottom: -70px;
+}
+
 .speakers-section {
   margin: auto;
   margin-bottom: 70px;
   width: 90%;
 }
+
 .speakers-title {
   border-radius: 20px;
   background-color: #ffadad;
