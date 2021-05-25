@@ -664,12 +664,12 @@ details {
   color: rgb(53, 51, 51);
 }
 
-.email-link {
+.link {
   color: rgb(108, 108, 248);
   transition: color 0.5s;
 }
 
-.email-link:hover {
+.link:hover {
   color: #0084ff;
   transition: color 0.5s;
 }
