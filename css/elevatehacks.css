@@ -92,7 +92,7 @@ ul {
   color: black;
   font-size: 18px;
   text-decoration: underline solid transparent;
-  transition: color 0.5s, text-decoration 0.5 ease;
+  transition: color 0.5s, text-decoration 0.5s ease;
 }
 
 .nav-link:hover {
@@ -161,6 +161,14 @@ ul {
   font-size: 18px;
   margin: 20px 0;
   background-color: #c5f1ff;
+  text-decoration: underline solid transparent;
+  transition: color 0.5s, text-decoration 0.5s ease;
+}
+
+.nav-link-mobile:hover {
+  color: #f37076;
+  text-decoration: underline;
+  transition: color 0.5s, text-decoration 0.5s ease;
 }
 
 .grid {
