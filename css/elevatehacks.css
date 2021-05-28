@@ -111,6 +111,7 @@ ul {
 .burger {
   display: inline-block;
   cursor: pointer;
+  margin-top: 2px;
 }
 
 .bar1,
