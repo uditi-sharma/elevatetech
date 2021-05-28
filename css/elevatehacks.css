@@ -211,7 +211,7 @@ ul {
 }
 
 .intro-img {
-  width: 70%;
+  width: 65%;
   border: 5px solid #ff5757;
   margin: 80px;
   border-radius: 20px;
@@ -272,9 +272,9 @@ ul {
   width: 80%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .intro-img {
-    width: 85%;
+    width: 80%;
   }
 
   .involvement-btns {
@@ -306,6 +306,7 @@ ul {
 
   .intro-img {
     margin: 50px;
+    width: 85%;
   }
 
   .involvement-btns-container {
