@@ -109,3 +109,24 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var events = [{name: "Event Title 1", description: "Description 1."},
+{name: "Event Title 2", description: "Description 2."},
+{name: "Event Title 3", description: "Description 3."},
+{name: "Event Title 4", description: "Description 4."},
+{name: "Event Title 5", description: "Description 5."},
+{name: "Event Title 6", description: "Description 6."},
+{name: "Event Title 7", description: "Description 7."},
+{name: "Event Title 8", description: "Description 8."}
+];
+function clickedScheduleRow(row) {
+  var eventTitle = row.getElementsByTagName("td")[0].innerHTML;
+
+  document.getElementById("event-box-title").innerHTML = eventTitle;
+  for (i = 0; i < events.length; i++) {
+    if (events[i].name === eventTitle) {
+      document.getElementById("event-description-text-testing").innerHTML = events[i].description;
+      break;
+    }
+  }
+}
