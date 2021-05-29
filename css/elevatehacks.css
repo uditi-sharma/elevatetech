@@ -608,7 +608,7 @@ ul {
 }
 
 .schedule-container {
-  width: 500px;
+  width: 450px;
   position: relative;
   align-content: center;
   justify-content: center;
@@ -714,15 +714,16 @@ table tr:last-child td {
 
 @media (max-width: 1000px) {
   .schedules {
-    width: 100%;
+    width: 90%;
     display: grid;
     justify-items: center;
     justify-content: center;
+    margin: auto;
   }
 
   .schedule-container {
     display: grid;
-    width: 400px;
+    width: 90%;
     justify-items: center;
     justify-content: center;
   }
@@ -736,10 +737,14 @@ table tr:last-child td {
     justify-self: center;
   }
 
+  .schedule-dots {
+    display: none;
+  }
+
   .event-box {
     width: 400px;  
     margin: auto;
-    margin-top: 60px;
+    margin-top: 20px;
   }
 }
 
@@ -764,26 +769,7 @@ table tr:last-child td {
   background-color: #717171;
 }
 
-/* sponsors */
-.sponsor-msg {
-  text-align: center;
-  font-size: 20px;
-  width: 90%;
-  margin: -40px auto 80px auto;
-  color: rgb(53, 51, 51);
-}
 
-.sponsors {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: auto;
-}
-
-.sponsor-logo {
-  width: 350px;
-  margin: auto;
-  padding: 20px;
-}
 
 /* faqs */
 .faq-questions {
@@ -832,7 +818,7 @@ details {
   }
 
   .faq-question-card {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .faq-answer {
@@ -897,6 +883,35 @@ details {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+
+
+/* sponsors */
+.sponsor-msg {
+  text-align: center;
+  font-size: 20px;
+  width: 90%;
+  margin: -40px auto 60px auto;
+  color: rgb(53, 51, 51);
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: auto;
+  margin-bottom: -30px;
+}
+
+.sponsor-logo {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+}
+
+@media(max-width:700px) {
+  .sponsor-msg {
+    margin-bottom: 30px;
+  }
 }
 
 /* speakers */
