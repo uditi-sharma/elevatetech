@@ -640,7 +640,6 @@ ul {
 
 .schedule-titles {
   background-color: #adffce;
-  padding: 100px 0px;
 }
 
 tr {
@@ -678,7 +677,8 @@ table tr:first-child th:last-child {
 } 
 
 table tr:first-child {
-  height: 70px;
+  height: 65px;
+  font-size: 20px;
 } 
 
 table tr:last-child td {
