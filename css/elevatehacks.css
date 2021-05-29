@@ -505,7 +505,6 @@ ul {
   background-color: #caffbf;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  margin-left: 10%;
   text-align: center;
 }
 
@@ -527,7 +526,7 @@ ul {
 .schedules {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
 }
 
@@ -570,15 +569,24 @@ ul {
 tr {
   height: 50px;
 }
+
 td, th {
   text-align: center;
-  border-bottom: 1px solid rgb(71, 71, 71);
   padding-right: 40px;
 }
 
 tr:hover {
   background-color: #adffce;
   cursor: pointer;
+}
+
+tr:last-child td:first-child {
+  border-radius: 0 0 0 20px;
+}
+
+tr:last-child td:last-child {
+  border-radius: 0 0 20px 0;
+
 }
 
 th {
@@ -627,7 +635,7 @@ table tr:last-child td {
   transition: transform 0.5s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .schedules {
     width: 100%;
     display: grid;
@@ -652,8 +660,7 @@ table tr:last-child td {
   }
 
   .event-box {
-    width: 80%;  
-    justify-self: center;
+    width: 400px;  
     margin: auto;
     margin-top: 60px;
   }
