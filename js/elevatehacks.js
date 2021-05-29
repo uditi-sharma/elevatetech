@@ -1,8 +1,8 @@
 // burger dropdown
 function changeBurger(x) {
-    x.classList.toggle("change");
-    var navLinksMobile = document.getElementById("navLinksMobile");
-    navLinksMobile.classList.toggle("grid");
+  x.classList.toggle("change");
+  var navLinksMobile = document.getElementById("navLinksMobile");
+  navLinksMobile.classList.toggle("grid");
 }
 
 // description text 
@@ -80,34 +80,38 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("schedule-slide");
-  var dots = document.getElementsByClassName("schedule-dot");
+var i;
+var slides = document.getElementsByClassName("schedule-slide");
+var dots = document.getElementsByClassName("schedule-dot");
+var day1 = 7;
 
-  if (n > slides.length) {
-      slideIndex = 1
-  }
-  if (n < 1) {
-      slideIndex = slides.length
-  }
+if (n > slides.length) {
+    slideIndex = 1
+}
+if (n < 1) {
+    slideIndex = slides.length
+}
 
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
 
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+var date = day1 + slideIndex - 1;
+document.getElementById("schedule-date").innerHTML = "August " + date + "th";
+
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
 }
 
 var events = [{name: "Event Title 1", description: "Description 1."},
@@ -120,13 +124,13 @@ var events = [{name: "Event Title 1", description: "Description 1."},
 {name: "Event Title 8", description: "Description 8."}
 ];
 function clickedScheduleRow(row) {
-  var eventTitle = row.getElementsByTagName("td")[0].innerHTML;
+var eventTitle = row.getElementsByTagName("td")[0].innerHTML;
 
-  document.getElementById("event-box-title").innerHTML = eventTitle;
-  for (i = 0; i < events.length; i++) {
-    if (events[i].name === eventTitle) {
-      document.getElementById("event-description-text-testing").innerHTML = events[i].description;
-      break;
-    }
+document.getElementById("event-box-title").innerHTML = eventTitle;
+for (i = 0; i < events.length; i++) {
+  if (events[i].name === eventTitle) {
+    document.getElementById("event-description-text-testing").innerHTML = events[i].description;
+    break;
   }
+}
 }
