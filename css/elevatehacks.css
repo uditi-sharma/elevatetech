@@ -708,7 +708,7 @@ table tr:last-child td {
 
 .schedule-back:hover,
 .schedule-next:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition: transform 0.5s;
 }
 
