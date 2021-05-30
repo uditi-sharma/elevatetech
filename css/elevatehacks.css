@@ -726,7 +726,7 @@ table tr:last-child td {
   }
 
   .schedule-table {
-    width: 90vw;
+    width: 85vw;
     max-width: 400px;
   }
 
@@ -740,7 +740,7 @@ table tr:last-child td {
   }
 
   .event-box {
-    width: 90vw;
+    width: 85vw;
     max-width: 400px;
     margin: auto;
     margin-top: 20px;
