@@ -776,6 +776,8 @@ table tr:last-child td {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: auto;
   margin-bottom: -20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-question-card {
