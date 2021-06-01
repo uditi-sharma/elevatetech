@@ -526,7 +526,7 @@ ul {
   }
 
   #stage {
-    height: 50vw;
+    height: 52vw;
   }
 }
 
@@ -550,6 +550,10 @@ ul {
   .about-text {
     text-align: center;
     font-size: 18px;
+  }
+
+  #stage {
+    height: 50vw;
   }
 }
 
