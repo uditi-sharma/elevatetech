@@ -458,6 +458,7 @@ ul {
 
   #stage {
     height: 52vw;
+    width: auto;
   }
 
   .slide-img-a {
@@ -489,10 +490,12 @@ ul {
 
   #stage {
     height: 50vw;
+    width: auto;
   }
 
   .slide-img-a {
     height: 50vw;
+    width: auto;
   }
 }
 
