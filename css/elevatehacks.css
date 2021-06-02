@@ -459,6 +459,10 @@ ul {
   #stage {
     height: 52vw;
   }
+
+  .slide-img-a {
+    height: 52vw;
+  }
 }
 
 /* phone */
@@ -484,6 +488,10 @@ ul {
   }
 
   #stage {
+    height: 50vw;
+  }
+
+  .slide-img-a {
     height: 50vw;
   }
 }
