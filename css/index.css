@@ -1,0 +1,122 @@
+#about,
+#impact #initiatives,
+#team {
+  margin: auto;
+  padding-top: 50px;
+  width: 95%;
+}
+
+#team {
+  margin-bottom: 50px;
+}
+
+/* intro */
+
+
+
+
+/* about */
+
+
+
+
+/* impact */
+
+
+
+
+/* initiatives */
+
+
+
+
+/* team */
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: auto;
+  width: 95%;
+  margin-top: -20px;
+}
+
+.member-profile {
+  margin: 30px 0;
+}
+
+.member-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-img {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  border: 5px solid #c5f1ff;
+  background-color: #c5f1ff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.member-info {
+  margin: auto;
+}
+
+.member-name {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0 10px 0;
+}
+
+.member-role {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.member-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  padding: 10px;
+}
+
+.social-link:visited {
+  color: inherit;
+}
+
+.linkedin-icon,
+.instagram-icon,
+.github-icon,
+.email-icon {
+  color: rgb(54, 53, 53);
+  transition: color 0.5s, transform 0.5s;
+}
+
+.linkedin-icon:hover {
+  color: #0e76a8;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
+}
+
+.instagram-icon:hover {
+  color: #c13584;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
+}
+
+.github-icon:hover {
+  color: black;
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
+}
+
+.email-icon:hover {
+  color: rgb(230, 3, 3);
+  transform: scale(1.15);
+  transition: color 0.5s, transform 0.5s;
+}
