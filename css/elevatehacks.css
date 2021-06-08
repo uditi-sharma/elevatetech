@@ -797,6 +797,18 @@ details {
   margin-bottom: -30px;
 }
 
+.logo-link {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  transition: transform 0.5s;
+}
+
+.logo-link:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
 .sponsors-logo {
   width: 350px;
   margin: auto;
