@@ -36,7 +36,7 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("schedule-slide");
   var dots = document.getElementsByClassName("schedule-dot");
-  var day1 = 7;
+  var day1 = 14;
 
   if (n > slides.length) {
     slideIndex = 1
@@ -59,15 +59,27 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-var events = [{ name: "Event Title 1", description: "Description 1." },
-{ name: "Event Title 2", description: "Description 2." },
-{ name: "Event Title 3", description: "Description 3." },
-{ name: "Event Title 4", description: "Description 4." },
-{ name: "Event Title 5", description: "Description 5." },
-{ name: "Event Title 6", description: "Description 6." },
-{ name: "Event Title 7", description: "Description 7." },
-{ name: "Event Title 8", description: "Description 8." }
+var events = [{ name: "Zoom Opening", description: "Zoom Opening" },
+{ name: "Opening Ceremony + Theme Declaration", description: "Opening Ceremony + Theme Declaration" },
+{ name: "Team Formation", description: "Team Formation" },
+{ name: "Intro to GitHub", description: "Intro to GitHub" },
+{ name: "Intro to Web Development (Qoom)", description: "Intro to Web Development (Qoom)" },
+{ name: "AI Ethics ft College Pressors", description: "AI Ethics ft College Pressors" },
+{ name: "Women in Tech Panel", description: "Women in Tech Panel" },
+{ name: "College Tech Leaders Panel", description: "College Tech Leaders Panel" },
+{ name: "Intro to IOS/Android Development", description: "Intro to IOS/Android Development" },
+{ name: "Creative Coding with Python (ImagiLabs)", description: "Creative Coding with Python (ImagiLabs)" },
+{ name: "Pitching Basics", description: "Pitching Basics" },
+{ name: "Zoom Reopens", description: "Zoom Reopens" },
+{ name: "Submissions Due", description: "Submissions Due" },
+{ name: "Submission Validation", description: "Submission Validation" },
+{ name: "Late Submissions Due (FINAL CALL)", description: "Late Submissions Due (FINAL CALL)" },
+{ name: "Judging & Presentation Period", description: "Judging & Presentation Period" },
+{ name: "Intro to LinkedIn & Resume Building", description: "Intro to LinkedIn & Resume Building" },
+{ name: "Social Hour & Game Period", description: "Social Hour & Game Period" },
+{ name: "Awards and Closing Ceremony", description: "Awards and Closing Ceremony" }
 ];
+
 function clickedScheduleRow(row) {
   var eventTitle = row.getElementsByTagName("td")[0].innerHTML;
 

@@ -477,28 +477,38 @@
 .event-box {
   position: relative;
   align-self: center;
+  display: grid;
   justify-content: center;
-  align-content: center;
   width: 350px;
   height: 350px;
   background-color: #caffbf;
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
+  padding: 20px;
+}
+
+.event-box-title-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  vertical-align: center;
+  text-align: center;
 }
 
 #event-box-title {
   font-size: 30px;
-  margin-top: 30px;
+  text-align: center;
+  padding: 0 5px 5px 5px;
 }
 
 #event-description {
-  height: 55%;
-  width: 70%;
-  margin: 7% auto;
+  height: 200px;
+  width: 290px;
+  margin: auto;
   background-color: #adffce;
   border-radius: 15px;
-  padding: 15px;
+  padding: 20px;
   text-align: left;
 }
 
@@ -510,7 +520,7 @@
 }
 
 .schedule-container {
-  width: 450px;
+  width: 600px;
   position: relative;
   align-content: center;
   justify-content: center;
@@ -551,8 +561,8 @@ tr {
 td,
 th {
   text-align: center;
-  padding-right: 40px;
   font-size: 18px;
+  padding: 15px 15px 15px 0;
 }
 
 tr:hover {
@@ -615,7 +625,7 @@ table tr:last-child td {
   transition: transform 0.5s;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .schedules {
     width: 100%;
     display: grid;
@@ -633,7 +643,7 @@ table tr:last-child td {
 
   .schedule-table {
     width: 85vw;
-    max-width: 400px;
+    max-width: 600px;
   }
 
   .schedule-slide {
@@ -646,10 +656,16 @@ table tr:last-child td {
   }
 
   .event-box {
-    width: 85vw;
+    width: 77vw;
     max-width: 400px;
     margin: auto;
     margin-top: 20px;
+  }
+
+  #event-description {
+    max-width: 290px;
+    width: 60vw;
+    margin: auto;
   }
 }
 
@@ -805,7 +821,7 @@ details {
 }
 
 .logo-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);x
   transition: transform 0.5s;
 }
 
