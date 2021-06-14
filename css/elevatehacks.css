@@ -583,6 +583,10 @@ th {
   font-size: 20px;
 }
 
+td {
+  padding: 10px;
+}
+
 table tr:first-child th:first-child {
   border-top-left-radius: 20px;
 }
