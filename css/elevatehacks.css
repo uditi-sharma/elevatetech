@@ -760,7 +760,7 @@ details[open] summary::before {
 .prize-tracks {
   display: grid;
   grid-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin: auto;
   width: 90%;
 }
@@ -790,27 +790,51 @@ details[open] summary::before {
 .prize-track-title {
   text-align: center;
   font-size: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .prize {
   text-align: center;
   font-size: 20px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
 }
 
-.prize-img {
-  margin: 30px;
+.prize-img-container {
+  margin: 20px 30px 30px 30px;
   border-radius: 20px;
   background-color: white;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.free-swag {
-  padding-top: 20px;
-  width: 90%;
+.prize-img {
   margin: auto;
+  border-radius: 20px;
+  max-height: 200px;
+  max-width: 230px;
+}
+
+.prize-img-logo {
+  margin: auto;
+  max-height: 200px;
+  max-width: 230px;
+}
+
+.free-swag-container {
+  width: 88%;
+  margin: 20px auto;
+}
+.free-swag {
   text-align: center;
   font-size: 18px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 10px;
 }
 
 /* sponsors */
