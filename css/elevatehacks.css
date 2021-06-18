@@ -176,16 +176,19 @@
   align-items: center;
   margin: auto;
   padding-bottom: 30px;
-  width: 80%;
+  width: 65%;
 }
 
+.intro-btn-a {
+  margin: auto;
+}
 @media (max-width: 1100px) {
   .intro-img {
     width: 80%;
   }
 
   .involvement-btns {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -212,7 +215,7 @@
   border: none;
   padding: 15px 30px;
   font-size: 20px;
-  margin: 0 30px 40px 30px;
+  margin-bottom: 40px;
   background-size: 300% 100%;
   cursor: pointer;
   border-radius: 50px;
@@ -849,7 +852,7 @@ details[open] summary::before {
 
 .sponsors {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: auto;
   margin-bottom: -30px;
 }
@@ -868,7 +871,7 @@ details[open] summary::before {
 }
 
 .sponsors-logo {
-  width: 350px;
+  width: 280px;
   margin: auto;
   padding: 10px;
 }
