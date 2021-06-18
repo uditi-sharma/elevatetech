@@ -1,10 +1,3 @@
-// burger dropdown
-function changeBurger(x) {
-  x.classList.toggle("change");
-  var navLinksMobile = document.getElementById("navLinksMobile");
-  navLinksMobile.classList.toggle("grid");
-}
-
 //about us
 // Original JavaScript code by Chirp Internet: chirpinternet.eu
 // Please acknowledge use of this code by including this header.
