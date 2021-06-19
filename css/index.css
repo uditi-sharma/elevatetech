@@ -76,22 +76,32 @@
 .subheading {
   text-align: center;
   margin-top: -20px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  font-size: 30px;
 }
 
-.init-upcoming-container, .init-prev-container {
+.init-upcoming-container {
   display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  grid-gap: 50px;
 }
+
+.init-prev-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  grid-gap: 50px;
+}
+
 
 .init-box {
-  width: 400px;
-  height: 380px;
+  max-width: 400px;
+  width: 70%;
+  height: 88%;
   border-radius: 20px;
   margin: auto;
-  margin-bottom: 70px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   justify-content: center;
@@ -100,22 +110,33 @@
 
 .init-title {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
-.init-pic {
-  width: 350px;
-  height: 200px;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.init-date {
+  font-size: 20px;
 }
 
-@media (max-width: 900px) {
-  .init-upcoming-container, .init-prev-container {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-  }
+.init-descrip {
+  font-size: 20px;
+}
+
+.init-pic {
+  max-width: 350px;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.init-pic:hover {
+  transform: scale(1.08);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 
 #elevatehacks-box {
