@@ -73,6 +73,71 @@
 /* impact */
 
 /* initiatives */
+.subheading {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.init-upcoming-container, .init-prev-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.init-box {
+  width: 400px;
+  height: 380px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 70px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.init-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.init-pic {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .init-upcoming-container, .init-prev-container {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
+
+#elevatehacks-box {
+  background-color: #FDFFB6;
+}
+
+#app-dev-camp {
+  background-color: #CAFFBF;
+}
+
+#ui-intro {
+  background-color: #FFC8DD;
+}
+
+#data-camp {
+  background-color: #FFD6A5;
+}
+
+#python-camp {
+  background-color: #BDB2FF;
+}
+
 
 /* team */
 .team-members {
