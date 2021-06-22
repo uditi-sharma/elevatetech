@@ -185,10 +185,35 @@ ul {
   }
 }
 
+.wave {
+  margin-bottom: 80px;
+}
+
+.custom-shape-divider-top {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+  position: relative;
+  display: block;
+  height: 100px;
+  width: 100%;
+  min-width: 45cm;
+}
+
+.custom-shape-divider-top .shape-fill {
+  fill: #c5f1ff;
+}
+
 /* footer */
 .footer-container {
   background: #a0c4ff;
   margin: auto;
+  margin-top: 80px;
 }
 
 .contact-container {
